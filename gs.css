@@ -18,7 +18,7 @@
     font-size: 30px;
     font: italic;
     font-style: normal;
-    filter: contrast(0.6);
+    filter: invert(0.5);
 }
 .HYACINTH{
     color:crimson;
@@ -26,3 +26,42 @@
     font: bold;
     font-style: italic;
 }
+table { 
+    color: black;
+    margin: 25px 25px 25px 25px;   
+    
+    }
+    .SERGEANT:hover{
+        background-color: lightpink;
+        color:darkgreen;
+        text-shadow: 0 0 7px #000;
+        border-style: groove;
+        border-radius: 25px;
+        
+    }
+    .HYACINTH:hover{
+        background-color: lightpink;
+        color:darkgreen;
+        text-shadow: 0 0 7px #000;
+        border-style: groove;
+        border-radius: 25px;
+    }
+table,th,td{
+        padding: 20px;
+        border: 1px solid black;
+        border-collapse: collapse;
+    
+    }
+td {
+       
+        color:black;
+        text-align: center;
+    
+    }
+    th{
+          
+        font: bold;
+        color: black;
+        text-align: center;
+    }
+
